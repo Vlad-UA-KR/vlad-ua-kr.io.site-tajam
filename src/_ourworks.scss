@@ -1,0 +1,73 @@
+.works {
+	width: 100%;
+	min-height: 735px;
+	padding-bottom: 30px;
+
+	&__container {
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-end;
+	}
+
+	&__title {
+		font-size: 22px;
+		color: rgb(65, 61, 75);
+		font-weight: 700;
+		text-align: left;
+		font-family: "Playfair Display";
+		display: inline-block;
+		padding-top: 70px;
+		transition: all 0.2s ease-in;
+	}
+
+	&__link {
+		color: rgb(65, 61, 75);
+		text-align: right;
+		i {
+			color: rgb(65, 61, 75);
+		}
+	}
+
+	&__link:hover,
+	&__link:focus {
+		color: rgb(0, 224, 208);
+		i {
+			color: rgb(0, 224, 208);
+		}
+	}
+
+	&__content-container {
+		margin-top: 70px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		img {
+			max-width: 267px;
+			height: 200px;
+		}
+	}
+
+	&__button {
+		width: 100%;
+		max-width: 140px;
+		height: 40px;
+		border: 1px solid rgb(0, 224, 208);
+		border-radius: 2px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		transition: all 0.2s ease-in;
+		font-size: 16px;
+		font-family: "Hammersmith One";
+		color: rgb(0, 224, 208);
+		line-height: 1.2;
+		text-transform: uppercase;
+		margin: 70px auto 0;
+	}
+
+	&__button:hover,
+	&__button:focus {
+		background-color: darken($color: rgb(255, 255, 255), $amount: 10);
+		color: darken($color: rgb(0, 224, 208), $amount: 7);
+	}
+}

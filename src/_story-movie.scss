@@ -1,0 +1,102 @@
+.about {
+	width: 100%;
+	min-height: 950px;
+}
+
+.story {
+	width: 100%;
+	min-height: 400px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	column-gap: 20px;
+	row-gap: 30px;
+	padding-top: 70px;
+	padding-bottom: 30px;
+
+	&__image-block {
+		width: 100%;
+		max-width: 380px;
+		display: flex;
+		justify-content: center;
+
+		img {
+			height: 229px;
+			width: 235px;
+		}
+	}
+
+	&__content-block {
+		width: 100%;
+		max-width: 540px;
+		display: flex;
+		flex-direction: column;
+		row-gap: 30px;
+	}
+
+	&__title {
+		font-size: 22px;
+		color: rgb(65, 61, 75);
+		font-family: "Playfair Display";
+		font-weight: 700;
+	}
+
+	&__text {
+		color: rgba(65, 61, 75, 0.749);
+		line-height: 1.571;
+		max-width: 520px;
+	}
+
+	&__button {
+		@extend %btn;
+		align-items: flex-start;
+	}
+
+	&__button:hover,
+	&__button:focus {
+		background-color: darken($color: rgb(255, 255, 255), $amount: 10);
+		color: darken($color: rgb(0, 224, 208), $amount: 7);
+	}
+
+	@media (max-width: 959px) {
+		&__content-block {
+			align-items: center;
+		}
+	}
+}
+
+// -------------Movie-block---------------========
+
+.movie {
+	width: 100%;
+	height: 550px;
+	background: url(../../img/vid_overlay.png), url(../../img/vid_background.png) center no-repeat;
+	background-size: cover;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	row-gap: 35px;
+
+	&__play {
+		width: 100px;
+		height: 100px;
+		border: 3px solid rgb(255, 255, 255);
+		border-radius: 50%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		cursor: pointer;
+
+		img {
+			margin-left: 10px;
+		}
+	}
+
+	&__text {
+		font-size: 16px;
+		font-weight: 900;
+		cursor: default;
+	}
+}
