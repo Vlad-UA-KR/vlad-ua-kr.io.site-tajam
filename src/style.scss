@@ -6,7 +6,7 @@
 @import "_ourteam";
 @import "_ourworks";
 @import "_slider";
-@import "_form";
+@import "_contact";
 @import "_footer";
 
 html {
@@ -60,6 +60,21 @@ body {
 	font-size: 16px;
 	font-family: "Hammersmith One";
 	color: rgb(0, 224, 208);
-	line-height: 1.2;
 	text-transform: uppercase;
+	cursor: pointer;
+}
+
+// -----------------Logo------------
+
+.logo {
+	display: flex;
+	align-items: center;
+	column-gap: 10px;
+
+	&__text {
+		color: #1a8491;
+		font-size: 30px;
+		font-weight: 300;
+		font-family: "Roboto";
+	}
 }

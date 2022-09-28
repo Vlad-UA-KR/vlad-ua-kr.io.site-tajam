@@ -19,9 +19,9 @@
 		<header class="header">
 			<div class="header__navigation navigation">
 				<div class="navigation__container container">
-					<div class="navigation__logo">
-						<img src="./img/logo.svg" alt="logo" class="navigation__logo-image">
-						<span class="navigation__logo-text">tajam</span>
+					<div class="navigation__logo logo">
+						<img src="./img/logo.svg" alt="logo" class="logo__image">
+						<span class="logo__text">tajam</span>
 					</div>
 					<nav class="navigation__menu">
 						<ul class="navigation__list">
@@ -31,7 +31,7 @@
 							<li class="navigation__list-item"><a href="#team" class="navigation__link">teams</a></li>
 							<li class="navigation__list-item"><a href="#works" class="navigation__link">works</a></li>
 							<li class="navigation__list-item"><a href="#slider" class="navigation__link">people say</a></li>
-							<li class="navigation__list-item"><a href="#form" class="navigation__link">contact</a></li>
+							<li class="navigation__list-item"><a href="#contact" class="navigation__link">contact</a></li>
 						</ul>
 					</nav>
 					<div class="navigation__burger">
@@ -48,7 +48,7 @@
 							auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec
 							sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi
 							accumsan ipsum velit.</p>
-						<a href="#" class="header__button">LEARN MORE</a>
+						<a href="#" class="header__button" onclick="this.blur()">LEARN MORE</a>
 					</div>
 				</div>
 				<div class="header__slide">
@@ -59,7 +59,7 @@
 							auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec
 							sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi
 							accumsan ipsum velit.</p>
-						<a href="#" class="header__button">LEARN MORE</a>
+						<a href="#" class="header__button" onclick="this.blur()">LEARN MORE</a>
 					</div>
 				</div>
 				<div class="header__slide">
@@ -70,7 +70,7 @@
 							auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec
 							sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi
 							accumsan ipsum velit.</p>
-						<a href="#" class="header__button">LEARN MORE</a>
+						<a href="#" class="header__button" onclick="this.blur()">LEARN MORE</a>
 					</div>
 				</div>
 				<div class="header__slide">
@@ -81,7 +81,7 @@
 							auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec
 							sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi
 							accumsan ipsum velit.</p>
-						<a href="#" class="header__button">LEARN MORE</a>
+						<a href="#" class="header__button" onclick="this.blur()">LEARN MORE</a>
 					</div>
 				</div>
 			</div>
@@ -104,7 +104,7 @@
 								Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris
 								vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per
 								conubia nostra, per inceptos himenaeos.</p>
-							<a href="#" class="story__button">LEARN MORE</a>
+							<a href="#" class="story__button" onclick="this.blur()">LEARN MORE</a>
 						</div>
 					</div>
 				</div>
@@ -196,7 +196,7 @@
 						</div>
 					</div>
 					<p class="team__text">Become part of our dream team, let’s join us ! </p>
-					<a href="#" class="team__button">WE ARE HIRING</a>
+					<a href="#" class="team__button" onclick="this.blur()">WE ARE HIRING</a>
 				</div>
 			</div>
 			<div class="works" id="works">
@@ -219,13 +219,142 @@
 					<img src="./img/works_image.png" alt="pika">
 				</div>
 				<div class="container">
-					<a href="" class="works__button load">LOAD MORE</a>
+					<a href="" class="works__button load" onclick="this.blur()">LOAD MORE</a>
 				</div>
 			</div>
-			<div class="slider" id="slider">slider</div>
-			<div class="form" id="form">form</div>
+			<div class="slider-page" id="slider">
+				<div class="slider-page__container container">
+					<div class="slider-page__quote">
+						<i class="fa-solid fa-quote-left"></i>
+					</div>
+					<p class="slider-page__text">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit
+						auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec
+						sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi
+						accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat
+						consequat auctor eu in elit.</p>
+					<div class="slider-page__slider-for slider-for">
+						<div class="slider-for__slide">
+							<p class="slider-for__name">Sasuke Utiha</p>
+							<p class="slider-for__position">Back-end Dev</p>
+						</div>
+						<div class="slider-for__slide">
+							<p class="slider-for__name">Naruto Uzumaki</p>
+							<p class="slider-for__position">Frond-end Dev</p>
+						</div>
+						<div class="slider-for__slide">
+							<p class="slider-for__name">JANE GALADRIEL</p>
+							<p class="slider-for__position">CEO TENGKUREP</p>
+						</div>
+						<div class="slider-for__slide">
+							<p class="slider-for__name">Gaara</p>
+							<p class="slider-for__position">UX/UI Designer</p>
+						</div>
+						<div class="slider-for__slide">
+							<p class="slider-for__name">Rock Lee</p>
+							<p class="slider-for__position">Devops</p>
+						</div>
+					</div>
+					<div class="slider-page__slider-nav slider-nav">
+						<div class="slider-nav__slide">
+							<img src="./img/slide1.png" alt="JANE GALADRIEL">
+						</div>
+						<div class="slider-nav__slide">
+							<img src="./img/slide2.png" alt="JANE GALADRIEL">
+						</div>
+						<div class="slider-nav__slide">
+							<img src="./img/slide3(main).png" alt="JANE GALADRIEL">
+						</div>
+						<div class="slider-nav__slide">
+							<img src="./img/slide4.png" alt="JANE GALADRIEL">
+						</div>
+						<div class="slider-nav__slide">
+							<img src="./img/slide5.png" alt="JANE GALADRIEL">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="contact" id="contact">
+				<div class="contact__container container">
+					<div class="contact__form-container">
+						<h3 class="contact__title">GIVE US A GOOD NEWS</h3>
+						<form class="contact__form" id="contact-form" action="#">
+							<input class="contact__input" type="text" name="name" form="contact-form" placeholder="Name">
+							<input class="contact__input" type="email" name="email" form="contact-form" placeholder="Email">
+							<input class="contact__input" type="text" name="subject" form="contact-form" placeholder="Subject">
+							<textarea class="contact__texarea" name="message" cols="30" rows="10" placeholder="Your Massage"
+								form="contact-form"></textarea>
+							<input class="contact__submit" type="submit" value="SUBMIT" form="contact-form">
+						</form>
+					</div>
+					<div class="contact__clients-container">
+						<h3 class="contact__title">OUR HAPPY CLIENT</h3>
+						<img src="./img/Zara_Logo.svg" alt="zara logo">
+						<img src="./img/Logo_of_Mango.svg" alt="mango logo">
+						<img src="./img/Barneys_New_York_Logo.svg" alt="barneys newyourk logo">
+						<img src="./img/Gucci_Logo.svg" alt="gucci logo">
+						<img src="./img/Calvin_klein_logo.svg" alt="calvin klein logo">
+						<img src="./img/Logo_NIKE.svg" alt="nike logo">
+						<img src="./img/Converse_logo.svg" alt="converse logo">
+						<img src="./img/Puma_Logo.svg" alt="puma logo">
+						<img src="./img/Levi's_logo.svg" alt="levis logo">
+						<img src="./img/Billabong.svg" alt="billa bong  logo">
+					</div>
+				</div>
+			</div>
 		</main>
-		<footer class="footer">1</footer>
+		<footer class="footer">
+			<div class="footer__container container">
+				<div class="footer__flex-row">
+					<div class="footer__content-blok">
+						<div class="footer__logo logo">
+							<img src="./img/logo.svg" alt="logo" class="logo__image">
+							<span class="logo__text">tajam</span>
+						</div>
+						<p class="footer__text">lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh
+							elit. Duis sed odio sit amet auctror a ornare odio non mauris vitae erat in elit</p>
+					</div>
+					<div class="footer__content-blok">
+						<h4 class="footer__title">OUR STUDIO</h4>
+						<p class="footer__text"><span><i class="fa-solid fa-location-dot"></i></span>Ruko cucruk, Jl. Radio
+							luar dalem jos
+							No.12 - 13, Kalideres - Jakarta Barat
+							11480 - Indonesia</p>
+						<p class="footer__text"><span><i class="fa-solid fa-phone-flip"></i></span>(+62) 21-2224 3333</p>
+					</div>
+					<div class="footer__content-blok">
+						<h4 class="footer__title">STAY IN TOUCH</h4>
+						<form class="footer__form" id="newsletter" action="#">
+							<input class="footer__email" type="email" name="email" id="" form="newsletter"
+								placeholder="Subscribe our newsletter">
+							<button class="footer__submit" type="submit" form="newsletter"><img src="./img/footer_btn.svg"
+									alt="button"></button>
+						</form>
+						<div class="footer__social social">
+							<a href="https://uk-ua.facebook.com/" class="social__link" target="_blank"><i
+									class="fa-brands fa-facebook-f"></i></a>
+							<a href="https://twitter.com/?lang=ua" class="social__link" target="_blank"><i
+									class="fa-brands fa-twitter"></i></a>
+							<a href="https://dribbble.com/" class="social__link" target="_blank"><i
+									class="fa-brands fa-dribbble"></i></a>
+							<a href="https://www.instagram.com/" class="social__link" target="_blank"><i
+									class="fa-brands fa-instagram"></i></a>
+							<a href="https://www.google.com.ua/?hl=ua" class="social__link" target="_blank"><i
+									class="fa-brands fa-google-plus-g"></i></a>
+							<a href="https://www.youtube.com/" class="social__link" target="_blank"><i
+									class="fa-brands fa-youtube"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="footer__flex-row">
+					<div class="footer__help-blok help-blok">
+						<a href="#" class="help-blok__link">HELP</a>
+						<a href="#" class="help-blok__link">TERMS & CONDITION</a>
+						<a href="#" class="help-blok__link">PRIVACY</a>
+					</div>
+					<p class="help-blok__copyright">Copyright © 2015 - Tajem Creative</p>
+				</div>
+			</div>
+		</footer>
 	</div>
 
 

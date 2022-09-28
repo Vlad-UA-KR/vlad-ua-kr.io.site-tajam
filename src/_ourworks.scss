@@ -23,8 +23,10 @@
 	&__link {
 		color: rgb(65, 61, 75);
 		text-align: right;
+		transition: all 0.2s ease-in;
 		i {
 			color: rgb(65, 61, 75);
+			transition: all 0.2s ease-in;
 		}
 	}
 

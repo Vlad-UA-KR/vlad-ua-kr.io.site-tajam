@@ -78,6 +78,12 @@
 	align-items: center;
 	flex-direction: column;
 	row-gap: 35px;
+	transition: all 0.5s linear;
+
+	&:hover {
+		background: url(../../img/vid_background.png) center no-repeat;
+		background-size: cover;
+	}
 
 	&__play {
 		width: 100px;

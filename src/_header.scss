@@ -120,19 +120,6 @@
 		justify-content: space-between;
 	}
 
-	&__logo {
-		display: flex;
-		align-items: center;
-		column-gap: 10px;
-	}
-
-	&__logo-text {
-		color: #1a8491;
-		font-size: 30px;
-		font-weight: 300;
-		font-family: "Roboto";
-	}
-
 	&__menu {
 		padding-left: 20px;
 		transition: all 0.2s ease-in;
@@ -198,7 +185,6 @@
 		}
 
 		&.active {
-			margin-right: 16px;
 			span {
 				transform: scale(0);
 			}
